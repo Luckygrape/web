@@ -1,0 +1,40 @@
+{
+  "name": "js-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:t": "vitest",
+    "test": "vitest --ui",
+    "test:coverage": "vitest run --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Курс из 32 модулей для изучения JavaScript с нуля. Каждый модуль -- самостоятельное задание с теорией, тестами и подсказками. Вы пишете код, запускаете тесты -- и сразу видите, правильно ли решение.",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@vitest/ui": "^2.1.0",
+    "jsdom": "^26.0.0",
+    "vitest": "^2.1.0"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "chalk": "^4.1.2",
+    "express": "^5.2.1",
+    "happy-dom": "^17.4.4",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "sqlite3": "^5.1.7",
+    "undici": "^7.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ser4eese/js-test.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ser4eese/js-test/issues"
+  },
+  "homepage": "https://github.com/Ser4eese/js-test#readme"
+}
